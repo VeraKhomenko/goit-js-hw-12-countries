@@ -1,0 +1,26 @@
+  
+<h1 class="title">{{name}}</h1>
+<ul class="articles_list"> 
+  <li class="articles_item">
+      <p> <b>Capital: </b> "{{capital}}"</p>
+  </li>
+  <li class="articles_item">
+      <p> <b>Population: </b> "{{population}}"</p>
+  </li>
+  
+<ul class="articles_list"><b>languages: </b> 
+ {{#each languages}}
+    <li class="articles_item_lang">
+   
+      <span>"{{name}}"</span>
+  </li>
+
+{{/each}}
+</ul>
+
+
+  <li class="articles_item">
+<img class="articles_img" src="{{flag}}" alt="" width="420"></li>
+</ul>
+
+

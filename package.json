@@ -11,15 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luxplanjay/goit-js-hw-12-countries.git"
+    "url": "git+https://github.com/VeraKhomenko/goit-js-hw-12-countries.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "VeraKhomenko <pochtavkh@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/luxplanjay/goit-js-hw-12-countries/issues"
-  },
-  "homepage": "https://github.com/luxplanjay/goit-js-hw-12-countries#readme",
+  
+  "homepage": "https://verakhomenko.github.io/goit-js-hw-12-countries#readme",
   "devDependencies": {
     "@babel/core": "^7.12.13",
     "@babel/plugin-proposal-class-properties": "^7.12.13",
