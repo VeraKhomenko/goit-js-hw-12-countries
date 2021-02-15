@@ -8,7 +8,7 @@ import debounce from '../node_modules/lodash.debounce';
 const nameCountry = document.querySelector('.js-name-country');
 
 function onChangeNameCountry(event) {
-  if (!event.target.value.length) {
+  if (!event.target.value) {
     return;
   }
   fetchCountries(event.target.value).then(addHandlers).catch(console.error);

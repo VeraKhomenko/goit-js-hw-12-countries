@@ -8,7 +8,7 @@ function fetchCountries(searchQuery) {
 
   return fetch(url, options)
     .then(response => response.json())
-    .then(data => data)
+    
     .catch(console.error);
 }
 
